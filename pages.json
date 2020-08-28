@@ -1,0 +1,141 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/special/special",
+      "style": {
+        "navigationBarTitleText": "天机阁",
+		"enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/classification/classification",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/shoppingcart/shoppingcart",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/detailaction/detailaction",
+      "style": {
+        "navigationBarTitleText": "专题详情"
+      }
+    },
+    {
+      "path": "pages/brand/brand",
+      "style": {
+        "navigationBarTitleText": "制造商详情"
+      }
+    },
+    {
+      "path": "pages/navDetail/navDetail",
+      "style": {
+        "navigationBarTitleText": "导航详情"
+      }
+    },
+    {
+      "path": "pages/moreDetail/moreDetail",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
+      "path": "pages/collect/collect",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "navigationBarBackgroundColor":"#FFFFFF",
+        "navigationBarTextStyle":"black"
+      }
+    },
+    {
+      "path": "pages/address/address",
+      "style": {
+        "navigationBarTitleText": "收货地址"
+      }
+    },
+    {
+      "path": "pages/editaddress/editaddress",
+      "style": {
+        "navigationBarTitleText": "编辑收货地址"
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "天机阁"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "天机阁",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#d81e06",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/image/home.png",
+      "selectedIconPath": "static/image/active_home.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/special/special",
+      "iconPath": "static/image/itum.png",
+      "selectedIconPath": "static/image/active_itum.png",
+      "text": "专题"
+    }, {
+      "pagePath": "pages/classification/classification",
+      "iconPath": "static/image/class.png",
+      "selectedIconPath": "static/image/active_class.png",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/shoppingcart/shoppingcart",
+      "iconPath": "static/image/cart.png",
+      "selectedIconPath": "static/image/active_cart.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "pages/my/my",
+      "iconPath": "static/image/my.png",
+      "selectedIconPath": "static/image/active_my.png",
+      "text": "我的"
+    }]
+  }
+}

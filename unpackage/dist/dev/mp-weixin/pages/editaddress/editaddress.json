@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑收货地址",
+  "usingComponents": {
+    "select-address": "/components/yixuan-selectAddress/yixuan-selectAddress"
+  }
+}

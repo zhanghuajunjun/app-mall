@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/special/special",
+    "pages/classification/classification",
+    "pages/shoppingcart/shoppingcart",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/detailaction/detailaction",
+    "pages/brand/brand",
+    "pages/navDetail/navDetail",
+    "pages/moreDetail/moreDetail",
+    "pages/detail/detail",
+    "pages/collect/collect",
+    "pages/address/address",
+    "pages/editaddress/editaddress",
+    "pages/order/order",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "天机阁",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/active_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "iconPath": "static/image/itum.png",
+        "selectedIconPath": "static/image/active_itum.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/image/class.png",
+        "selectedIconPath": "static/image/active_class.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "iconPath": "static/image/cart.png",
+        "selectedIconPath": "static/image/active_cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/my.png",
+        "selectedIconPath": "static/image/active_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap19.json"
+}

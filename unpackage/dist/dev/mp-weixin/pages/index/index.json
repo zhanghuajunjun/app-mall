@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "天机阁",
+  "usingComponents": {
+    "hot-goods": "/components/hotGoods",
+    "brand-list": "/components/brandList",
+    "new-goods": "/components/newGoods",
+    "topic-list": "/components/topicList",
+    "new-category-list": "/components/newCategoryList"
+  }
+}

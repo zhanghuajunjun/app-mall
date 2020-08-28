@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "专题详情",
+  "usingComponents": {
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse"
+  }
+}

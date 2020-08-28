@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "天机阁",
+  "usingComponents": {
+    "u-swipe-action": "/node-modules/uview-ui/components/u-swipe-action/u-swipe-action"
+  }
+}

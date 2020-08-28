@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "导航详情",
+  "usingComponents": {
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs"
+  }
+}
